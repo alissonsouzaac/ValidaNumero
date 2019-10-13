@@ -1,0 +1,18 @@
+#include <iostream>
+#include "TestaValidaNumero.cpp"
+using namespace std;
+
+int main(){
+	int num;
+	TestaValidaNumero *numc= new TestaValidaNumero;
+	
+	cout <<"Digite o valor do numero:"<< endl;
+	cin >> num;
+	
+	numc->validaNumero(num);
+	
+
+	
+	system("pause");
+	return 0;
+}
